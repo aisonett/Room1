@@ -1,0 +1,1415 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 20vh;
+    border-bottom: 1px solid #E0E0E0;
+}
+.Top {
+    height: 5vh;
+    background-color: #F4F4F4;
+    text-align: right;
+    align-items: center;
+}
+.TopHeader a{
+    text-decoration: none;
+    color: #AAAAAA;
+    height: 33px;
+    top: -10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 33px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+header .container {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container div + a >img {
+    width: 30px;
+}
+header .container div + a {
+    display: none;
+}
+header .container a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+header .container img + div {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+header .container div + div {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+main {
+    height: 100vh;
+    padding: 57px;
+}
+main img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.DesignTop {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 93px;
+}
+.DesignTop h1 {
+    width: 30%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #1A1A1A;
+}
+.DesignTop p{
+    width: 47%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #AAAAAA;
+}
+.DesignBottom {
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.DesignBottom div {
+    width: 45%;
+    margin-bottom: 32px;
+}
+.DesignBottom div img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.DesignBottom div p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1A1A1A;
+}
+
+
+
+.BrandsTop{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.BrandsTop h1{
+    margin-bottom: 27px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #1A1A1A;
+}
+.BrandsTop p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #4A4A4A;
+}
+.BrandsLogos{ 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 2vw;
+  }
+
+
+
+
+
+
+
+
+
+
+  .Photo {
+    height: 93vh;
+  }
+  .Images {
+  display: flex;
+  margin-top: 200px;
+  }
+  .PhotoItems{
+    margin-top: 15px;
+  }
+
+
+  
+
+
+.Qualities{
+    margin-top: 100px;
+}
+.Qualities h1 {
+    margin: 0 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #1A1A1A;
+}
+.Qualities h1 + p {
+    margin: 15px 0px 70px 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #46856E;
+}
+.QualitiesItems{
+    display: flex;
+    margin:0px 100px;
+}
+.QualitiesItems div{
+    margin-right: 45px;
+}
+.QualitiesItems div>img {
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+.QualitiesItems div>h4 {
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1A1A1A;
+}
+.QualitiesItems div>p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AAAAAA;
+}
+
+
+
+
+
+
+
+.Rating{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.RatingTop{
+    background-image: url(./images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 195px;
+    height: 100vh;
+}
+.RatingTop div{
+    margin-top: 40px;
+}
+.RatingTop p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 280px;
+}
+.RatingTop h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.RatingBottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 240px;
+    width: 60%;
+    height: 30vh;
+    margin: 200px auto;
+}
+.RatingBottom h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 52px;
+    color: #AAAAAA;
+    align-items: center;
+}
+.RatingBottom h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 52px;
+    color: #000000;
+    margin-top: 25px;
+}
+
+
+
+
+
+.Options {
+    margin-bottom: 200px;
+}
+.Options .container {
+    display: flex;
+    flex-direction: column;
+}
+.Options div {
+    display: flex;
+    margin-top: 65px;
+}
+.OptionTexts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+.OptionTexts h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #1A1A1A;
+}
+.OptionTexts p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AAAAAA;
+    width: 70%;
+    margin-top: 27px;
+}
+.Option img {
+    height: 672px;
+    width: 672px;
+}
+
+
+
+
+
+.FreeTrialTop {
+    width: 100%;
+    display: flex;
+}
+.FreeTrialBottom {
+    margin-top: 180px;
+    height: 75vh;
+}
+.FreeTrialBottom .container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+}
+.FreeTrialBottom .container .FreeTrialBottomItems {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.FreeTrialBottomItems p {
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #1A1A1A;
+}
+.FreeTrialBottomButton{
+    display: flex;
+    flex-direction: column;
+}
+.FreeTrialBottom button{
+    padding: 0px 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #46856E;
+    border-radius: 2px;;
+}
+.FreeTrialBottomButton a{
+    text-decoration: none;
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    color: #AAAAAA;
+}
+
+
+
+
+
+
+footer{
+    background-color: #2B2B2B;
+}
+footer .container {
+    width: 90%;
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1.2fr 3fr 2.2fr 4fr 0.5fr;
+    grid-gap: 2vw;
+    padding-top: 100px;
+    margin-left: 9%;
+}
+.links a, .links h2, .Office, .SocialMedia h2, .MailingList h2{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.MailingList h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.Inputmail input{
+    height: 54px;
+ 
+    top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+
+
+}
+footer .container .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    margin-left: 3%;
+}
+footer .container .links > div {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+footer .container .links > div h2 {
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+footer .container .links > div a {
+    font-size: 15px;
+    margin: 1% 0;
+}
+footer .container .SocialMedia {
+    width: 50%;
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+footer .container .SocialMedia a{
+    text-decoration: none;
+}
+footer .container .SocialMedia img{
+    padding-right: 5px;
+}
+
+
+footer .container .MailingList {
+    display: flex;
+    flex-direction: column;
+}
+.MailingList h2{
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+.MailingList h3{
+    margin-bottom: 30px;
+    margin-left: 35px;
+
+}
+footer .container .MailingList .Inputmail{
+    width: 100%;
+}
+footer .container .MailingList .Inputmail input {
+    width: 88%;
+    height: 60px;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+}
+footer .container .MailingList .Inputmail a {
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 280px;
+    text-decoration: none;
+}
+
+footer .container .Checkbox {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 80px;
+}
+footer .container .Checkbox > div {
+    width: 130px;
+    height: 25px;
+    background: #AAAAAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #AAAAAA;
+    position: relative;
+    margin-top: 5px;
+}
+#squaredOne {
+    opacity: 0;
+}
+footer .container .Checkbox > div label {
+    cursor: pointer;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    background: #2B2B2B;
+    
+}
+footer .container .Checkbox > div label:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    background: #AAAAAA;
+    top: 7%;
+    left: 8%;
+}
+
+footer .container .Checkbox p{
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+footer .container .MailingList button {
+    padding: 10px 20px;
+    font-size: 17px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    transition: 0.2s;
+    align-self: flex-end;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+footer .container .return{
+margin-top: 300px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    .container {
+        width: 85%;
+    }
+    header .container img + div {
+        width: 30%;
+    }
+    header .container div + div {
+        width: 20%;
+    }
+  
+
+
+
+    main {
+        height: 70vh;
+        padding: 50px;
+    }
+    
+    
+    .DesignTop {
+        margin-top: 80px;
+    }
+    .DesignTop h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .DesignTop p{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .DesignBottom div p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+
+
+
+    .BrandsTop{
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .BrandsTop h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .BrandsTop p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .BrandsLogos{ 
+        margin-left: 10%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 4vw;
+      }
+    
+    
+    
+    
+
+    .Photo {
+        height: fit-content;
+      }
+    .Images {
+      display: flex;
+      margin-top: 200px;
+      }
+    .Photo .Images img{
+        height: 430px;
+    }
+    .PhotoItems{
+        margin-top: 15px;
+        margin-left: -25%;
+      }
+    
+
+
+
+    .Qualities{
+        margin-top: 80px;
+    }
+    .Qualities h1 {
+        margin: 0 70px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .Qualities h1 + p {
+        margin: 15px 0px 50px 70px;
+    }
+    .QualitiesItems{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .QualitiesItems div{
+        margin-right: 0px;
+        margin-bottom: 60px;
+    }
+    .QualitiesItems div>h4 {
+        font-size: 26px;
+    }
+    .QualitiesItems div>p{
+        font-size: 18px;
+    }
+
+
+
+
+
+
+    .Rating{
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    .RatingTop{
+        background-size: contain;
+        margin: 0px 50px;
+        padding-top: 0px;
+        padding-left: 50px;
+        height: fit-content;
+    }
+    .RatingTop div{
+        margin-top: 20px;
+    }
+    .RatingTop p{
+        font-size: 20px;
+        line-height: 26px;
+        width: 250px;
+    }
+
+    .RatingTop h5{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .RatingBottom {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        width: 60%;
+        height: 30vh;
+        margin: 200px auto;
+    }
+    .RatingBottom h1{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        color: #AAAAAA;
+        align-items: center;
+    }
+    .RatingBottom h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+        margin-top: 25px;
+    }
+
+
+    .Options {
+        margin-bottom: 100px;
+    }
+    .Options .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .Options .banner {
+        display: flex;
+        margin-top: 65px;
+        flex-direction: column;
+    }
+    
+    .OptionTexts h4 {
+        font-size: 28px;
+        line-height: 26px;
+    }
+    .OptionTexts p {
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+    .Option img {
+        height: fit-content;
+        width: 40%
+    }
+    .Options .banner:nth-of-type(2) {
+        flex-direction: column-reverse;
+    }
+    
+    .FreeTrialTop {
+        height: 58vh;
+    }
+    .FreeTrialBottom {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 70vh;
+    }
+    .FreeTrialBottom .container .FreeTrialBottomItems {
+        width: 80%;
+    }
+    .FreeTrialBottom button{
+        padding: 0px 30px;
+        line-height: 50px;
+    }
+    
+    
+    
+ }
+
+@media (max-width: 767.98px) { 
+
+    header .container div + div {
+        width: 25%;
+        justify-content: space-between;
+    }
+    
+    main {
+        height: 80vh;
+        padding: 50px;
+    }
+    main img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .DesignTop {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+    .DesignTop h1 {
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .DesignTop p{
+        width: 100%;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .DesignBottom div p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .BrandsTop h1{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .BrandsTop p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .BrandsLogos{ 
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr  ;
+        grid-gap: 4vw;
+        text-align: center;
+      }
+    
+    
+    
+    .Photo {
+        height: fit-content;
+    }
+    .Photo .Images img{
+        height: 55vh;
+    }
+    .PhotoItems{
+    display: none;  
+    }
+    
+
+    .Qualities h1 {
+        margin: 0;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .Qualities h1 + p {
+        margin: 15px 0px 60px 0px;
+        text-align: center;
+    }
+    .QualitiesItems{
+        display: flex;
+        flex-wrap: wrap;
+        margin:0px 100px;
+    }
+    .QualitiesItems div{
+        margin-right: 0px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    
+    
+    
+    
+    .Rating{
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
+    .RatingTop{
+        background-size: cover;
+        margin: 0px 20px;
+        padding-top: 10px;
+        padding-left: 50px;
+        height: 60vh;
+    }
+    .RatingTop div{
+        margin-top: 20px;
+    }
+    .RatingTop p{
+        font-size: 14px;
+        line-height: 18px;
+        width: 300px;
+    }
+    .RatingTop div img {
+        width: 20%;
+    }
+    .RatingTop div> p + img{
+        width: 10%;
+    }
+    .RatingTop h5{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .RatingBottom {
+        margin-top: 140px;
+        width: 80%;
+        height: 30vh;
+        margin: 50px auto;
+    }
+    .RatingBottom h1{
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .RatingBottom h2 {
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+
+    }
+    
+    
+    
+    .Options {
+        margin-bottom: 100px;
+    }
+    .Options .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .Options .banner {
+        display: flex;
+        margin-top: 65px;
+        flex-direction: column;
+    }
+    
+    .OptionTexts h4 {
+        font-size: 28px;
+        line-height: 26px;
+    }
+    .OptionTexts p {
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+    .Option img {
+        height: fit-content;
+        width: 40%
+    }
+    .Options .banner:nth-of-type(2) {
+        flex-direction: column-reverse;
+    }
+    
+    
+    
+    
+    .FreeTrialTop {
+        height: 55vh;
+    }
+    .FreeTrialBottom {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 70vh;
+    }
+    .FreeTrialBottom .container .FreeTrialBottomItems {
+        width: 80%;
+    }
+    .FreeTrialBottom button{
+        padding: 0px 30px;
+        line-height: 50px;
+    }
+    
+
+    footer{
+        height: fit-content;
+    }
+    footer .container {
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr;
+        grid-template-rows: 1.5fr 1fr;
+        grid-template-areas: 
+        "h a a a k"
+        "b b b c k";
+        grid-gap: 4vw;
+        padding-top: 100px;
+    }
+    footer .container .Logo {
+        grid-area: h
+    }
+    .links a, .links h2, .Office, .SocialMedia h2, .MailingList h2{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .MailingList h3{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    footer .container .links {
+        grid-area: a;
+        text-align: center;
+        justify-content: space-around;
+    }
+    footer .container .links > div {
+        width: 35%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    footer .container .SocialMedia {
+        width: 100%;
+        grid-area: c;
+    }
+    footer .container .MailingList {
+        grid-area: b;
+    }
+    footer .container .return{
+    grid-area: c;
+    width: 10%;
+    align-items: center;
+    margin-top: 90%;
+    margin-left: 90%;
+    }
+   
+    
+ }
+
+
+@media (max-width:576px){
+    header .container img + div, header .container div + div {
+        display: none;
+        }
+    header .container div + a {
+            display: block;
+    } 
+    .Top {
+        height: 5vh;
+        background-color: #F4F4F4;
+        text-align: CENTER;
+        align-items: center;
+    }
+
+
+
+
+    main {
+        height: fit-content;
+        padding: 30px 15px;
+    }
+
+
+
+    .DesignTop {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .DesignTop h1 {
+        width: 100%;
+        line-height: 48px;
+        font-size: 38px;
+    }
+    .DesignTop p{
+        width: 100%;
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .DesignBottom {
+        margin-top: 60px;
+        flex-direction: column;
+    }
+    .DesignBottom div {
+        width: 100%;
+        text-align: center;
+    }
+    .DesignBottom div p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+
+
+
+
+
+
+    .BrandsTop{
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+    .BrandsTop h1{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .BrandsTop p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .BrandsLogos{ 
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 4vw;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+    .Photo {
+        height: fit-content;
+    }
+    .Photo .Images img{
+        height: 265px;
+    }
+    .PhotoItems{
+    display: none;  
+    }
+
+
+
+
+
+
+
+    .Qualities{
+        margin-top: 50px;
+    }
+    .Qualities .container {
+        width: 100%;
+    }
+    .Qualities h1 {
+        margin: 0 50px;
+        font-size: 24px;
+        line-height: 28px;
+        width: 80%;
+    }
+    .Qualities h1 + p {
+        margin-top: 15px;
+        text-align: center;
+        margin-left: auto;
+    }
+    .QualitiesItems{
+        margin:0px 50px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .QualitiesItems div{
+        margin-right: 0;
+    }
+    .QualitiesItems div>img {
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .QualitiesItems div>h4 {
+        margin-bottom: 15px;
+        font-size: 24px;
+        line-height: 12px;
+    }
+    .QualitiesItems div>p{
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 100px;
+    }
+    
+
+
+
+
+    .Rating{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .RatingTop{
+        background-size: 576px;
+        margin: 0;
+        padding-top: 30px;
+        padding-left: 50px;
+        height: 60vh;
+    }
+    .RatingTop div{
+        margin-top: 10px;
+    }
+    .RatingTop div img {
+        width: 20%;
+    }
+    .RatingTop div> p + img{
+        width: 10%;
+    }
+    .RatingTop p{
+        font-size: 12px;
+        line-height: 16px;
+        width: 150px;
+    }
+    .RatingTop h5{
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    .RatingBottom {
+        margin-top: 0;
+        width: 60%;
+        height: 20vh;
+        text-align: center;
+    }
+    .RatingBottom h1{
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .RatingBottom h2 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+
+
+
+
+
+    .Options {
+        margin-bottom: 100px;
+    }
+    .Options .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .Options .banner {
+        display: flex;
+        margin-top: 65px;
+        flex-direction: column;
+    }
+    .OptionTexts h4 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .OptionTexts p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+    .Option img {
+        height: fit-content;
+        width: 40%
+    }
+    .Options .banner:nth-of-type(2) {
+        flex-direction: column-reverse;
+    }
+    
+    
+    
+    
+
+
+
+    .FreeTrialTop {
+        height: 40vh;
+    }
+    .FreeTrialBottom {
+        margin-top: 50px;
+        height: 75vh;
+    }
+    .FreeTrialBottom .container .FreeTrialBottomItems {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .FreeTrialBottomItems p {
+        margin-top: 25px;
+    }
+
+    .FreeTrialBottomButton{
+        display: flex;
+        flex-direction: column;
+    }
+    .FreeTrialBottom button{
+        padding: 0px 30px;
+        line-height: 40px;
+    }
+    
+
+
+
+
+
+
+    footer{
+        margin-top: 15%;
+        height: fit-content;
+    }
+    footer .container {
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .links a, .links h2, .Office, .SocialMedia h2, .MailingList h2{
+        font-size: 12px;
+        line-height: 12px;
+        margin-top: 20px;
+    }
+    .MailingList h3{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .Inputmail input{
+        height: 54px;
+        top: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        border-radius: 3px;
+    
+    
+    }
+    footer .container .links {
+        letter-spacing: 1px;
+        margin-left: 0;
+    }
+    footer .container .links > div {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    footer .container .links > div h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    footer .container .links > div a {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    footer .container .SocialMedia {
+        width: 80%;
+        margin: auto;
+        height: 12%;
+        padding-top: 20px;
+    }
+    footer .container .SocialMedia a{
+        margin-top: 10px;
+    }
+    footer .container .SocialMedia img{
+        margin-top: 10px;
+    }
+    .MailingList h2{
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .MailingList h3{
+        margin-left: 0;
+    
+    }
+    footer .container .MailingList .Inputmail{
+        width: 100%;
+    }
+    footer .container .MailingList .Inputmail input {
+        width: 88%;
+        height: 60px;
+        margin-left: 0;
+    }
+    footer .container .MailingList .Inputmail a {
+        margin-left: 300px;
+
+    }
+    footer .container .Checkbox > div {
+        width: 100px;
+        height: 25px;
+    }
+    footer .container .Checkbox p{
+        margin-left: 10px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    footer .container .MailingList button {
+        font-size: 13px;
+        margin-top: 5%;
+    }
+    footer .container .return{
+        width: 100%;
+        align-items: center;
+        margin: 0;
+        transform: rotate(90deg);
+
+    }
+    }
+    
+
+
+
+
+
+
+
+    
+
+
